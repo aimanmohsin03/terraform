@@ -1,0 +1,6 @@
+.pgpass
+venv/
+.idea/
+__pycache__/
+sourceme
+.DS_Store

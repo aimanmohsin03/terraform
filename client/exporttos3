@@ -1,0 +1,16 @@
+aws s3 cp ./__main__.py s3://$SWCLIENT_BUCKET/src/dbtune-swclient/
+aws s3 cp ./client.py s3://$SWCLIENT_BUCKET/src/dbtune-swclient/
+aws s3 cp ./config.py s3://$SWCLIENT_BUCKET/src/dbtune-swclient/
+aws s3 cp ./dbms_adapter_factory.py s3://$SWCLIENT_BUCKET/src/dbtune-swclient/
+aws s3 cp ./job.py s3://$SWCLIENT_BUCKET/src/dbtune-swclient/
+aws s3 cp ./TuningError.py s3://$SWCLIENT_BUCKET/src/dbtune-swclient/
+
+aws s3 cp ./adapters/adapter.py s3://$SWCLIENT_BUCKET/src/dbtune-swclient/adapters/
+aws s3 cp ./adapters/dummydb_adapter.py s3://$SWCLIENT_BUCKET/src/dbtune-swclient/adapters/
+aws s3 cp ./adapters/rocksdb_adapter.py s3://$SWCLIENT_BUCKET/src/dbtune-swclient/adapters/
+aws s3 cp ./adapters/ubuntu_pg_adapter.py s3://$SWCLIENT_BUCKET/src/dbtune-swclient/adapters/
+aws s3 cp ./adapters/utility.py s3://$SWCLIENT_BUCKET/src/dbtune-swclient/adapters/
+
+aws s3 cp ./stats/io_stats.py s3://$SWCLIENT_BUCKET/src/dbtune-swclient/stats/
+aws s3 cp ./stats/mem_stats.py s3://$SWCLIENT_BUCKET/src/dbtune-swclient/stats/
+aws s3 cp ./stats/stats.py s3://$SWCLIENT_BUCKET/src/dbtune-swclient/stats/

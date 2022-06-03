@@ -1,0 +1,1 @@
+rsync -zarv --include="*/" --include="*.py" --exclude="*" ./* $EC2:/home/ubuntu/swclient/

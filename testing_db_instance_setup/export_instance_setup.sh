@@ -1,0 +1,1 @@
+rsync -zarv ./* $EC2:/home/ubuntu/testing_db_instance_setup/
